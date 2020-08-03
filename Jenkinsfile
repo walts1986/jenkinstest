@@ -4,7 +4,7 @@ pipeline {
         stage('Build') { 
             agent {
                 docker {
-                    image 'lbeschastny/jenkins-build-essentia' 
+                    image 'lbeschastny/jenkins-build-essential' 
                 }
             }
             steps {
