@@ -9,7 +9,7 @@ pipeline {
             }
             steps {
                 sh 'make'
-                sh 'cppcheck — enable=all — inconclusive — xml — xml-version=2 graph 2 > cppcheck.xml
+                sh 'cppcheck — enable=all — inconclusive — xml — xml-version=2 graph 2 > cppcheck.xml'
             }
         }
     }
