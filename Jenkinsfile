@@ -12,7 +12,7 @@ pipeline {
                 sh 'make'
                 //sh 'git clone https://github.com/danmar/cppcheck'
                 sh 'cd cppcheck'
-                sh 'make SRCDIR=build CFGDIR=/usr/bin/cfg HAVE_RULES=yes'
+                sh 'make'
                 sh 'make install CFGDIR=/usr/bin/cfg'
                 sh 'cppcheck --enable=all --inconclusive --xml --xml-version=2 graph 2 > cppcheck.xml'
             }
