@@ -10,7 +10,7 @@ pipeline {
             steps {
                 //sh 'apt install cppcheck'
                 sh 'make'
-                sh 'git clone https://github.com/danmar/cppcheck'
+                //sh 'git clone https://github.com/danmar/cppcheck'
                 sh 'cd cppcheck'
                 sh 'make SRCDIR=build CFGDIR=/usr/bin/cfg HAVE_RULES=yes'
                 sh 'make install CFGDIR=/usr/bin/cfg'
