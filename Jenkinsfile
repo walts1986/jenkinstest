@@ -14,7 +14,7 @@ pipeline {
             }
         }
         stage('cppcehck') { 
-
+            agent any
             steps {
                 //sh 'apt install cppcheck'
                 //sh 'make'
