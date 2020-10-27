@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /home/cznkfw/es5/sa8195p-qx-0-1_hlos_dev_qnx/apps/qnx_ap
 sleep 2
 pwd
