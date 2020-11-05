@@ -8,4 +8,4 @@ cd /home/cznkfw/es5/sa8195p-qx-0-1_hlos_dev_qnx/apps/qnx_ap/AMSS/qaic/src/infern
 sleep 2
 pwd
 ./clean.sh
-ls
+pwd
