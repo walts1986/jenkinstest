@@ -9,4 +9,3 @@ sleep 2
 pwd
 ./clean.sh
 pwd
-ls
